@@ -1,0 +1,68 @@
+body {
+    background: rgb(2, 41, 2);
+}
+
+/* Navegacion */
+
+nav{
+    margin: 20px 0 0 0;
+    height: 40px;
+   
+
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+li {
+    color: aquamarine;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(62, 231, 62);
+    color: aliceblue;
+    padding: 10px;
+}
+
+/* Mi presentacion */
+
+#acerca-mi {
+    margin-top: 30px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.contenedor-imagen-presentacion{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-presentacion {
+    height: 400px;
+    width: auto;
+}
+
+.contenedor-descripcion-presentacion{
+    width: 500px;
+    margin: 40px 30px 30px 0;
+    text-align: justify;
+}
+
+.titulo-descripcion{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.parrafo-descripcion{
+    margin-top: 30px;
+}

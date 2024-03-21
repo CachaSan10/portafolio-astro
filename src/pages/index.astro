@@ -1,8 +1,9 @@
 ---
-
+import Header from "../components/Header.astro";
+import "../styles/main.css";
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -11,6 +12,31 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Header />
+		<section id="acerca-mi">
+			<div class="contenedor-imagen-presentacion">
+				<img
+					src="../../public/imagenes/mi-foto.jpg"
+					class="imagen-presentacion"
+					alt="Fotografia de presentacion"
+				/>
+			</div>
+			<div class="contenedor-descripcion-presentacion">
+				<h3 class="titulo-descripcion">
+					Hola!, Soy Nahuel Alberto Cachambi
+				</h3>
+				<p class="parrafo-descripcion">
+					Mi nombre es Nahuel Alberto Cachambi soy estudiante avanzado
+					de la carrera de Analista Programador Universitario en la
+					Universidad Nacional de San Salvador de Jujuy. Me apasiona el
+					desarrollo de aplicaciones web en especial en el area del
+					backend, también me gusta desarrollar el frontend de las
+					paginas y agregarle mi estilo. Mi pasatiempo es indagar y
+					estudiar las distintas tecnologías que se usan para el
+					desarrollo de aplicaciones web, como framework y lenguajes
+					de programación.
+				</p>
+			</div>
+		</section>
 	</body>
 </html>
